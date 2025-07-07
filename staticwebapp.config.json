@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "route": "/api/*",
+      "rewrite": "https://taskmanager-api-chile-arieldev23.azurewebsites.net/api/*",
+      "allowedRoles": ["anonymous"]
+    }
+  ]
+}
