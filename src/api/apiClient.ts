@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+const API_BASE_URL = "https://gentle-wave-0b31d0310.1.azurestaticapps.net/";
 
 /**
  * Función genérica para realizar solicitudes HTTP.
