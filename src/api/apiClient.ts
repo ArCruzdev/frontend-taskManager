@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+const API_BASE_URL = import.meta.env.VITE_API_URL;
 
 /**
  * Función genérica para realizar solicitudes HTTP.
@@ -24,7 +24,7 @@ async function apiClient<TResponse>(
   if (data) {
     config.body = JSON.stringify(data);
   }
-
+console.log("➡️ URL del fetch:", url);
   const response = await fetch(url, config);
 
   if (!response.ok) {

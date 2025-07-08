@@ -18,6 +18,7 @@ function ProjectsPage() {
     const [successMessage, setSuccessMessage] = useState<string | null>(null);
 
     const navigate = useNavigate();
+console.log("API_BASE_URL:", import.meta.env.VITE_API_URL);
 
     // Función para cargar los proyectos desde la API
     const fetchProjects = async () => {
