@@ -1,7 +1,7 @@
 import apiClient from './apiClient';
 import type { ProjectDto, CreateProjectCommand, UpdateProjectCommand } from '../types/projectTypes';
 
-const ENDPOINT_PREFIX = '/Projects'; 
+const ENDPOINT_PREFIX = '/projects'; 
 
 export const projectApi = {
   // Obtener todos los proyectos
